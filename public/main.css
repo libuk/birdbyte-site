@@ -2,9 +2,9 @@
   --primary-color: #1a73e8;
   --secondary-color: #ddb744;
   --background-color: #333;
-  --text-color: #fff;
+  --text-color: #c0c0c0;
   --text-shadow: #1c170b;
-  --font-size: 16px;
+  --font-size: 1rem;
   --font-family: 'Roboto', sans-serif;
 }
 
@@ -16,13 +16,13 @@ body {
   font-family: var(--font-family);
 }
 
-.main-content {
+.wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: left;
+  max-width: 17rem;
+  margin: 0 auto;
   height: 100vh;
+  justify-content: center;
 }
 
 h1 {
@@ -32,8 +32,14 @@ h1 {
   text-shadow: 4px 4px var(--text-shadow);
 }
 
-.main-content__text-p {
-  font-size: 1.25rem;
-  color: var(--text-color);
-  text-shadow: 2px 2px var(--text-shadow);
+footer {
+  margin-top: 1rem;
+}
+
+p {
+  margin-block: 0;
+}
+
+p + p {
+  margin-top: .25rem;
 }
