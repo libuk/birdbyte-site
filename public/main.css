@@ -1,8 +1,8 @@
 :root {
   --primary-color: #1a73e8;
   --secondary-color: #ddb744;
-  --background-color: #333;
-  --text-color: #c0c0c0;
+  --text-color: #333;
+  --background-color: #ebe9e9;
   --text-shadow: #1c170b;
   --font-size: 1rem;
   --font-family: 'Roboto', sans-serif;
@@ -34,6 +34,7 @@ h1 {
 
 footer {
   margin-top: 1rem;
+  padding-left: 3rem;
 }
 
 p {
@@ -42,4 +43,12 @@ p {
 
 p + p {
   margin-top: .25rem;
+}
+
+.logo-container {
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 100%;
 }
