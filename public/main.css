@@ -1,11 +1,19 @@
 :root {
-  --primary-color: #1a73e8;
   --secondary-color: #ddb744;
   --text-color: #333;
   --background-color: #ebe9e9;
   --text-shadow: #1c170b;
   --font-size: 1rem;
   --font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
 }
 
 body {
@@ -33,7 +41,7 @@ h1 {
 }
 
 footer {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   padding-left: 3rem;
 }
 
@@ -51,4 +59,26 @@ p + p {
 
 .logo {
   width: 100%;
+}
+
+.tagline {
+  padding-left: 3rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.navigation {
+  margin-top: 1rem;
+}
+
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+  padding-left: 3rem;
+}
+
+.navigation li {
+  list-style-type: none;
+  margin-top: 0.5rem;
 }
